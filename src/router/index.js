@@ -18,6 +18,36 @@ const routes = [
         path: '',
         name: 'home',
         component: () => import('../views/HomeView.vue')
+      },
+      {
+        path: 'products',
+        name: 'products',
+        component: () => import('../views/front/ProductsView.vue')
+      },
+      {
+        path: 'product/:id',
+        name: 'product',
+        component: () => import('../views/front/ProductView.vue')
+      },
+      {
+        path: 'booking',
+        name: 'booking',
+        component: () => import('../views/front/BookingView.vue')
+      },
+      {
+        path: 'confirm',
+        name: 'orderConfirm',
+        component: () => import('../views/front/OrderConfirm.vue')
+      },
+      {
+        path: 'create',
+        name: 'orderCreate',
+        component: () => import('../views/front/OrderCreate.vue')
+      },
+      {
+        path: 'coupon',
+        name: 'coupon',
+        component: () => import('../views/front/CouponView.vue')
       }
     ]
   },
@@ -25,6 +55,16 @@ const routes = [
     path: '/admin',
     name: 'Dashboard',
     component: () => import('../views/dashboard/DashboardView.vue')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/LoginView.vue')
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: '404',
+    component: () => import('../views/The404View.vue')
   }
 ]
 
