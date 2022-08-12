@@ -1,7 +1,9 @@
 @import "~bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "~bootstrap/scss/bootstrap";
+@import 'swiper/scss';
 
+@import "base";
 @import "mixin";
 @import "layout";
 // @import "utilities";

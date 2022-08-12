@@ -1,22 +1,12 @@
 <template>
-  <Navbar></Navbar>
-  <nav>
+  <!-- <nav>
     <router-link to="/about">About</router-link> |
     <router-link :to="{name: 'Dashboard'}">admin</router-link> |
-  </nav>
+    <button class="btn btn-primary rounded-pill">BUTTON</button>
+  </nav> -->
 
   <router-view/>
 </template>
-
-<script>
-import Navbar from '@/components/navbar/FrontNavbar.vue'
-
-export default {
-  components: {
-    Navbar
-  }
-}
-</script>
 
 <style lang="scss">
 @import "./assets/style/all.scss";
