@@ -4,7 +4,7 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 p-8">
         <div class="col">
           <div class="">
-            <img src="../assets/images/Logo-circle.svg" alt="" class="logo w-50">
+            <img src="@/assets/images/Logo-circle.svg" alt="" class="logo w-50">
           </div>
         </div>
         <div class="col">
