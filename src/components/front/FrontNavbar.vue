@@ -13,7 +13,10 @@
             <router-link class="nav-link" to="#">咖哩星球的本質</router-link>
           </li> -->
           <li class="nav-item">
-            <div class="nav-link menu-toggle open">
+            <router-link class="nav-link" to="/admin">Dashboard</router-link>
+          </li>
+          <li class="nav-item">
+            <div class="nav-link menu-toggle" :class="{open:navbarOpen}" v-on:click="navbarOpen = !navbarOpen">
               <span class="menu-bar menu-bar-start w-50"></span>
               <span class="menu-bar"></span>
               <span class="menu-bar menu-bar-end w-50"></span>
@@ -25,7 +28,12 @@
 </nav>
 </template>
 
-<!-- const menuToggle = document.querySelector('.menu-toggle')
-// menuToggle.addEventListener('click', function () {
-//   menuToggle.classList.toggle('open')
-// }) -->
+<script>
+export default {
+  data () {
+    return {
+      navbarOpen: false
+    }
+  }
+}
+</script>
