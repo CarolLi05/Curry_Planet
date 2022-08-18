@@ -1,16 +1,17 @@
 <template>
- <div>header</div>
+  <div>header</div>
+  <div class="container bg-dark">
+    <SwiperComponent></SwiperComponent>
+  </div>
   <!-- <TheHeader></TheHeader> -->
 </template>
 
 <script>
-// @ is an alias to /src
-// import TheHeader from '@/components/TheHeader.vue'
+import SwiperComponent from '@/components/front/SwiperComponent.vue'
 
-// export default {
-//   name: 'HomeView',
-//    components: {
-//      TheHeader
-//    }
-// }
+export default {
+  components: {
+    SwiperComponent
+  }
+}
 </script>
