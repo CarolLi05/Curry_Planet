@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcurry_planet"]=self["webpackChunkcurry_planet"]||[]).push([[353],{3353:function(n,r,u){u.r(r),u.d(r,{default:function(){return f}});var e=u(6252);function t(n,r){return(0,e.wg)(),(0,e.iD)("h2",null,"後台訂位管理")}var c=u(3744);const a={},l=(0,c.Z)(a,[["render",t]]);var f=l}}]);
+//# sourceMappingURL=353.bba48c2f.js.map

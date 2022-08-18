@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcurry_planet"]=self["webpackChunkcurry_planet"]||[]).push([[767],{2767:function(n,r,u){u.r(r),u.d(r,{default:function(){return f}});var e=u(6252);function t(n,r){return(0,e.wg)(),(0,e.iD)("div",null,"Coupon")}var c=u(3744);const a={},l=(0,c.Z)(a,[["render",t]]);var f=l}}]);
+//# sourceMappingURL=767.3a6bbfd8.js.map
