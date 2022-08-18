@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Front</router-link>
+            <router-link class="nav-link" to="/admin/booking">訂單列表</router-link>
           </li>
         </ul>
       </div>
