@@ -38,7 +38,7 @@ export default {
           // token 寫入 cookie
           document.cookie = `curryPlanetToken = ${token}; expires = ${new Date(expired)}`
           // 轉到後台
-          this.$router.push('/admin')
+          this.$router.push('/admin/products')
         })
         .catch((err) => {
           console.dir(err)
