@@ -24,10 +24,10 @@
   &.open{
     transform: rotate(-45deg);
     .menu-bar-start{
-      transform: rotate(-90deg) translateX(3px);
+      transform: rotate(-90deg) translateX(2px);
     }
     .menu-bar-end{
-      transform: rotate(-90deg) translateX(-3px);
+      transform: rotate(-90deg) translateX(-2px);
     }
   }
   .menu-bar{
