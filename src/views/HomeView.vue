@@ -1,9 +1,7 @@
 <template>
-  <div>header</div>
-  <div class="container bg-dark">
-    <SwiperComponent></SwiperComponent>
+  <div class="container">
+    <SwiperComponent class="text-light"></SwiperComponent>
   </div>
-  <!-- <TheHeader></TheHeader> -->
 </template>
 
 <script>

@@ -1,7 +1,8 @@
 <template>
   <Navbar></Navbar>
-  <h2>Front</h2>
-  <router-view></router-view>
+  <div class="bg-dark">
+    <router-view></router-view>
+  </div>
   <Footer></Footer>
 
 </template>
