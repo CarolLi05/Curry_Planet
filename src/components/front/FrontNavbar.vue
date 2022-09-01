@@ -13,6 +13,18 @@
             <router-link class="nav-link" to="#">咖哩星球的本質</router-link>
           </li> -->
           <li class="nav-item">
+            <a class="nav-link" href="#offcanvasRight" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasRight" @click.prevent="openCartComponent">
+              <i class="fa-solid fa-cart-shopping"></i>
+              購物車
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+            <router-link class="nav-link" to="/cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              購物車頁面
+            </router-link>
+          </li> -->
+          <li class="nav-item">
             <router-link class="nav-link" to="/admin">Dashboard</router-link>
           </li>
           <li class="nav-item">
@@ -26,14 +38,25 @@
       </div>
   </div>
 </nav>
+<Cart></Cart>
 </template>
 
 <script>
+import Cart from '@/components/front/CartComponents.vue'
 export default {
   data () {
     return {
       navbarOpen: false
     }
-  }
+  },
+  components: {
+    Cart
+  },
+  methods: {
+    openCartComponent () {
+      this.$refs.cartComponent.openCart()
+    }
+  },
+  mounted () {}
 }
 </script>
